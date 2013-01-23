@@ -20,7 +20,7 @@ public class fibonacci {
 
 	}
 
-	// prints the first n fibonacci numbers using an recursive process
+	// prints the first n fibonacci numbers using a recursive process
 	public static void recursiveFibonacci(int n) {
 
 	}
