@@ -12,7 +12,7 @@ public class factorial {
 	 * main
 	 * 
 	 * 
-	 * @param args - args[1] is the number to find the factorial of.
+	 * @param args - args[0] is the number to find the factorial of.
 	 */
 	public static void main(String[] args) {
 		int n = 0;
