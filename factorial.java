@@ -31,7 +31,7 @@ public class factorial {
 			quit(args[0]);
 		}
 		
-		int f  = iterativeFactorial(n);
+		int f  = recursiveSum(n);
 
 		// int f  = recursiveFactorial(n);
 		
@@ -67,8 +67,18 @@ public class factorial {
 	 * @return	the factorial of n
 	 */
 	private static int recursiveFactorial(int n)  {
+		if(n == 1){
+			return 1;
+
+		}
+		return n * recursiveFactorial(n-1);
 		
-		return 0; // dummy return so file compiles, replace when writing method	
+	}
+	private static int recursiveSum(int n){
+		if (n == 1){
+			return 1;
+		}
+		return n+ recursiveSum(n-1);
 	}
 
 	
